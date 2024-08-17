@@ -1,0 +1,30 @@
+ /* General Styles */
+ body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: beige;
+}
+
+/*Navbar Styling*/
+nav {
+    background-color: #0f897f;
+    padding: 10px;
+    text-align: center;
+} 
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+ /*Header Styling */
+header {
+    text-align: center;
+    padding: 20px 0;
+    color: #0f897f;
+    
+}
