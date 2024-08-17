@@ -7,7 +7,7 @@
     background-color: beige;
 }
 
-/*Navbar Styling*/
+/* navbar Styling */
 nav {
     background-color: #0f897f;
     padding: 10px;
@@ -21,7 +21,7 @@ nav a {
     font-size: 18px;
 }
 
- /*Header Styling */
+ /* Header Styling */
 header {
     text-align: center;
     padding: 20px 0;
@@ -29,7 +29,7 @@ header {
     
 }
 
-/* Image Styling*/
+/* Image Styling */
 img {
     display: block;
     margin: 0 auto 20px;
@@ -46,7 +46,7 @@ img {
     
 }
 
-/* Applied specified font family, size, margin, and color to h1, h2, h3, and h4 using element selectors.*/
+/* Applied specified font family, size, margin, and color to h1, h2, h3, and h4 using element selectors. */
 h1 {
     font-family: 'Georgia', serif;
     font-size: 48px;
@@ -77,18 +77,18 @@ h4 {
     margin-bottom: 5px;
 }
 
- Main Section Styling 
+ /* Main Section Styling */
 main {
     padding: 20px;
 }
-/* Centered the menu section title and set its width to 800px using CSS class selectors.*/
+
+/* Centered the menu section title and set its width to 800px using CSS class selectors. */
 .centered {
     width: 800px;
     margin: 0 auto;
 }
 
-/* Use a class selector for styling the text inside paragraph elements that describe each menu item.
-*/
+/* Used a class selector for styling the text inside paragraph elements that describe each menu item. */
 .menu-item {
     color: #444;
     font-size: 16px;
