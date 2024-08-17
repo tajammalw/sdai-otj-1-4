@@ -28,3 +28,20 @@ header {
     color: #0f897f;
     
 }
+
+/* Image Styling*/
+img {
+    display: block;
+    margin: 0 auto 20px;
+}
+
+#front-view {
+    height: 400px;
+    width: 1200px;
+}
+
+#service-deck {
+    height: 400px;
+    width: 800px;
+    
+}
