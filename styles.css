@@ -113,12 +113,25 @@ p {
     color: #666;
 }
 
-#hours {
+hours {
     color: #666;
 }
 
 h2, h3, h4 {
     margin-top: 20px;
 }
+
+/* Footer Styling */
+footer {    
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+footer a {    
+    color: #333;
+    text-decoration: none;
+}
+
 
 
