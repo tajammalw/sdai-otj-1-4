@@ -10,88 +10,87 @@
 /* navbar Styling */
 nav {
     background-color: #0f897f;
-    padding: 10px;
+    padding: 1rem;
     text-align: center;
 } 
 
 nav a {
     color: #fff;
     text-decoration: none;
-    margin: 0 15px;
-    font-size: 18px;
-}
-
- /* Header Styling */
-header {
-    text-align: center;
-    padding: 20px 0;
-    color: #0f897f;
-    
+    margin: 0 1rem;
+    font-size: 1.125rem;
 }
 
 /* Image Styling */
 img {
     display: block;
-    margin: 0 auto 20px;
+    margin: 0 auto 1.25rem;
 }
 
 #front-view {
-    height: 400px;
-    width: 1200px;
+    height: 25rem;
+    width: 80rem;
 }
 
 #service-deck {
-    height: 400px;
-    width: 800px;
-    
+    height: 25rem;
+    width: 50rem;    
+}
+
+ /* Header Styling */
+ header {
+    text-align: center;
+    padding: 4rem 0 2rem; 
 }
 
 /* Applied specified font family, size, margin, and color to h1, h2, h3, and h4 using element selectors. */
 h1 {
     font-family: 'Georgia', serif;
-    font-size: 48px;
-    margin-bottom: 20px;
+    font-size: 3rem;
+    color: #0f897f;
+    margin-bottom: 1.25rem;
 }
 
 h2 {
     font-family: 'Verdana', sans-serif;
-    font-size: 28px;
+    font-size: 1.75rem;
     color: #0f897f;
-    margin-top: 30px;
-    margin-bottom: 15px;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
 }
 
 h3 {
     font-family: 'Verdana', sans-serif;
-    font-size: 24px;
+    font-size: 1.5rem;
     color: #666;
-    margin-top: 25px;
-    margin-bottom: 10px;
+    margin-top: 4rem;
+    margin-bottom: 0.75rem;
 }
 
 h4 {
     font-family: 'Verdana', sans-serif;
-    font-size: 20px;
+    font-size: 1.25rem;
     color: #777;
-    margin-top: 20px;
-    margin-bottom: 5px;
+    margin-top: 1.25rem;
+    margin-bottom: 0.5rem;
 }
 
  /* Main Section Styling */
 main {
-    padding: 20px;
+    padding: 2rem;
 }
 
 /* Centered the menu section title and set its width to 800px using CSS class selectors. */
 .centered {
-    width: 800px;
+    max-width: 50rem;
     margin: 0 auto;
+        
 }
 
 /* Used a class selector for styling the text inside paragraph elements that describe each menu item. */
 .menu-item {
     color: #444;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 1.5;
 }
 
@@ -102,8 +101,8 @@ ul {
 }
 
 ul li {
-    margin-bottom: 10px;
-    color: #666
+    margin-bottom: 0.625rem;
+    color: #666;
 }
 
 /* Paragraph and Heading Spacing */
@@ -118,20 +117,22 @@ hours {
 }
 
 h2, h3, h4 {
-    margin-top: 20px;
+    margin-top: 1.25rem;
 }
 
 /* Footer Styling */
-footer {    
+footer {
     text-align: center;
-    padding: 20px;
-    margin-top: 20px;
-}
+    padding: 2rem;
+    margin-top: 2rem;
+    background-color: #f4f4f4;
 
 footer a {    
     color: #333;
-    text-decoration: none;
+    text-decoration: underline;
 }
+
+
 
 
 
