@@ -7,12 +7,19 @@
     background-color: beige;
 }
 
-/* navbar Styling */
+/* Navbar Styling */
 nav {
     background-color: #0f897f;
     padding: 1rem;
     text-align: center;
-} 
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    z-index: 1000;
+    height: 1.875rem;
+}
 
 nav a {
     color: #fff;
@@ -21,29 +28,26 @@ nav a {
     font-size: 1.125rem;
 }
 
-/* Image Styling */
-img {
+/* Section Offsets for Fixed Navbar */
+section {
+    position: relative;
+}
+
+section:before {
+    content: '';
     display: block;
-    margin: 0 auto 1.25rem;
+    height: 3.75rem;
+    margin-top: -3.75rem;
+    visibility: hidden;
 }
 
-#front-view {
-    height: 25rem;
-    width: 80rem;
-}
-
-#service-deck {
-    height: 25rem;
-    width: 50rem;    
-}
-
- /* Header Styling */
- header {
+/* Header Styling */
+header {
     text-align: center;
-    padding: 4rem 0 2rem; 
+    padding: 4rem 0 2rem;
+    margin-top: 1rem; /* Adjust to prevent content overlap with fixed navbar */
 }
 
-/* Applied specified font family, size, margin, and color to h1, h2, h3, and h4 using element selectors. */
 h1 {
     font-family: 'Georgia', serif;
     font-size: 3rem;
@@ -63,7 +67,7 @@ h3 {
     font-family: 'Verdana', sans-serif;
     font-size: 1.5rem;
     color: #666;
-    margin-top: 4rem;
+    margin-top: 1.5rem;
     margin-bottom: 0.75rem;
 }
 
@@ -75,23 +79,40 @@ h4 {
     margin-bottom: 0.5rem;
 }
 
- /* Main Section Styling */
+/* Main Section Styling */
 main {
     padding: 2rem;
 }
 
-/* Centered the menu section title and set its width to 800px using CSS class selectors. */
 .centered {
     max-width: 50rem;
-    margin: 0 auto;
-        
+    margin: 1% auto;
 }
 
-/* Used a class selector for styling the text inside paragraph elements that describe each menu item. */
 .menu-item {
     color: #444;
     font-size: 1rem;
     line-height: 1.5;
+}
+
+/* Image Styling */
+img {
+    display: block;
+    margin: 0 auto 1.25rem;
+    max-width: 100%;
+    height: auto;
+}
+
+#front-view {
+    height: 30rem;
+    width: 70%;
+    object-fit: cover;
+}
+
+#service-deck {
+    height: 30rem;
+    width: 100%;
+    max-width: 50rem;
 }
 
 /* List Styling */
@@ -103,21 +124,6 @@ ul {
 ul li {
     margin-bottom: 0.625rem;
     color: #666;
-}
-
-/* Paragraph and Heading Spacing */
-p {
-    margin-bottom: 1.25rem;
-    line-height: 1.6;
-    color: #666;
-}
-
-hours {
-    color: #666;
-}
-
-h2, h3, h4 {
-    margin-top: 1.25rem;
 }
 
 /* Footer Styling */
@@ -137,7 +143,17 @@ footer a:hover {
     text-decoration: underline;
 }
 
+/* Paragraph and Heading Spacing */
+p {
+    margin-bottom: 1.25rem;
+    line-height: 1.6;
+    color: #666;
+}
 
+#hours {
+    color: #666;
+}
 
-
-
+h2, h3, h4 {
+    margin-top: 1.25rem;
+}
