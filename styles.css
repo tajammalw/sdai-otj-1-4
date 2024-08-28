@@ -119,6 +119,30 @@ img {
     max-width: 50rem;
 }
 
+/*  Styled the Gallery: Used class and ID selectors along with inline and block-level styling to arrange the images horizontally. Ensured responsiveness with Flexbox.*/
+
+#favorites {
+    text-align: center;
+}
+
+.dev-favorites-gallery {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;    
+}
+
+.image {
+    width: 32%; /* Makes each image take up roughly 1/3 of the container */
+    height: 200px;
+    border-radius: 10px; /* Adds rounded corners to the images */   
+    margin: 0 10px; /* Adds horizontal space between images */
+    transition: transform 0.3s ease; /* Smooth transition on hover */
+}
+
+.image:hover {
+    transform: scale(1.05); /* Slightly enlarges the image on hover */
+} 
+
 /* List Styling */
 ul {
     padding: 0;
