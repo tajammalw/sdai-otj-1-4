@@ -10,14 +10,14 @@
 /* Navbar Styling */
 nav {
     background-color: #0f897f;
-    padding: 1rem;
+    padding: 1.5rem;
     text-align: center;
     position: fixed;
     top: 0;
     left: 50%;
-    transform: translateX(-50%);
-    width: 100%;
-    z-index: 1000;
+    transform: translateX(-50%); /* Centers the element horizontally relative to its own width. */
+    width: 100%; /* ensures the element stretches across the entire width of its parent container. */
+    z-index: 1000; /* places the element in front of other content, making sure it’s highly visible.*/
     height: 1.875rem;
 }
 
@@ -28,7 +28,9 @@ nav a {
     font-size: 1.125rem;
 }
 
-/* Section Offsets for Fixed Navbar */
+/* Section Offsets for Fixed Navbar. The code ensures that when you click a
+link to scroll to a specific section, the section’s content is correctly 
+positioned and not hidden under the fixed navbar. */
 section {
     position: relative;
 }
@@ -105,6 +107,7 @@ img {
     margin: 0 auto 1.25rem;
     max-width: 100%;
     height: auto;
+    border-radius: 1%;
 }
 
 #front-view {
