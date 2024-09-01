@@ -14,7 +14,7 @@ function fadeIn(element, increment, intervalTime) {
  }
  
  // Elements to fade in with their respective increments
- fadeIn(document.querySelector('#hero'), 0.007, 30);
+ fadeIn(document.querySelector('#home'), 0.007, 30);
  fadeIn(document.querySelector('#menu'), 0.007, 30);
  fadeIn(document.querySelector('#favorites'), 0.007, 30);
  fadeIn(document.querySelector('#location'), 0.007, 30);
