@@ -10,3 +10,10 @@ function fadeIn(element, increment, intervalTime) {
         }
     }, intervalTime);
  }
+
+ // Applied fadeIn function to the elements. Elements to fade in with their respective increments/delays.
+fadeIn(document.querySelector('#home'), 0.005, 10);
+fadeIn(document.querySelector('#menu'), 0.005, 10);
+fadeIn(document.querySelector('#favorites'), 0.005, 10);
+fadeIn(document.querySelector('#location'), 0.005, 10);
+fadeIn(document.querySelector('#hours'), 0.005, 10);
